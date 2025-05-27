@@ -77,7 +77,7 @@ You can erase and reformat a full disk:
 smartyhdd/
 ├── src/
 │   └── smart.js            # Main application
-│   └── smartctl.js         # background
+│   └── smartctl.exe        # Background service
 ├── run.ps1                 # Launcher with admin + resize
 ├── run.bat                 # Click-to-run Windows batch
 ├── README.md
