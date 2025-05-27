@@ -1,0 +1,25 @@
+{
+  "name": "smarthdd",
+  "version": "0.1.0",
+  "main": "smart.js",
+  "scripts": {
+    "build": "pkg . --targets node18-win-x64 --output smartyHDD.exe mt -manifest elevate.manifest -outputresource:smartyHDD.exe;#1"
+  },
+  "author": "Pupariaa",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "chalk": "^4.1.2",
+    "inquirer": "^4.0.2",
+    "pdfkit": "^0.17.1",
+    "readline": "^1.3.0",
+    "sudo-prompt": "^9.2.1"
+  },
+  "pkg": {
+    "assets": [
+      "smartctl.exe"
+    ]
+  },
+  "bin": "./smart.js"
+}
